@@ -9,10 +9,10 @@ header {
 }
 
 header>div {
-    position: absolute;
-    top: 4rem;
     width: 70%;
     box-sizing: border-box;
+    position: absolute;
+    top: 4rem;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
