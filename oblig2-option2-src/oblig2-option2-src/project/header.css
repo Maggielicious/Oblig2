@@ -10,11 +10,11 @@ header {
 
 header>div {
     position: absolute;
-    top: 50%;
     width: 70%;
-    box-sizing: border-box;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, 4rem);
+    box-sizing: border-box;
     text-align: center;
     padding: 1.5rem;
     background-color: #c5192d;
