@@ -1,0 +1,9 @@
+header {height: 55vh;
+        background-image: url("assets/img/studentsbg.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center top;
+    }
+
+header>div {background-color: #c5192d;
+            }
