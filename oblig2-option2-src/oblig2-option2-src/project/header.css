@@ -13,6 +13,8 @@ header>div {
     top: 4rem;
     width: 70%;
     box-sizing: border-box;
+    left: 50%;
+    transform: translateX(50%);
     text-align: center;
     padding: 1.5rem;
     background-color: #c5192d;
