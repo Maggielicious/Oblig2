@@ -4,14 +4,17 @@ header {background-image: url("assets/img/studentsbg.png");
     background-position: center top;
     height: 55vh;
     position: relative;
-
+    margin:auto;
     }
-header>div {background-color: #c5192d;
-            color:white;
-           position:absolute;
+
+header>div {
+    position:absolute;
+           margin: 0 auto;
            top: 96px;
            text-align: center;
-           margin: 0 auto;
             padding: 40px;
+            background-color: #c5192d;
+            color:white;
             }
-    body {margin:auto;}
+
+            body {margin:auto;}
