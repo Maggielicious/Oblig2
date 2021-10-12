@@ -1,20 +1,20 @@
-header {background-image: url("assets/img/studentsbg.png");
+header {
+    background-image: url("assets/img/studentsbg.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center top;
-    height: 55vh;
+    height: 65vh;
     position: relative;
     margin:auto;
-    }
+}
 
 header>div {
-    position:absolute;
-           margin: 0 auto;
-           top: 96px;
-           text-align: center;
-            padding: 40px;
-            background-color: #c5192d;
-            color:white;
-            }
-
-            body {margin:auto;}
+    margin: auto;
+    position: absolute;
+    top: 4rem;
+    text-align: center;
+    padding: 1.5rem;
+    transform: translate(50%, 50%);
+    background-color: #c5192d;
+    color:white;
+}

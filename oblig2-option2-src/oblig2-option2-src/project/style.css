@@ -2,6 +2,7 @@ html {
     font-size: 14px;
 }
 body {
+    margin: 0;
     background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     font-family: Lato, sans-serif;
     font-size: 1.2rem;
@@ -32,18 +33,18 @@ p {
 }
 
 @media screen and (max-width: 600px) {
-    body {            
+    body {
         
     }
 }
 @media screen and (min-width: 600px) and (max-width: 960px) {
-    body {            
-       
+    html {            
+        font-size: 16px;
     }
 }
 @media screen and (min-width: 961px) {
-    body {            
-        
+    html {            
+        font-size: 24px;
     }
 }
 
