@@ -8,10 +8,12 @@ body {
     font-size: 1.2rem;
 }
 main {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
     width: 70%;
     top: 700px;
     box-sizing: border-box;
-    margin: auto;
     padding: 1rem;
     box-shadow: 0 0 1px 0 darkgray;
     background-color: whitesmoke;
