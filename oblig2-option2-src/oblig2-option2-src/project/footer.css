@@ -6,8 +6,9 @@ footer {
     left: 50%;
     transform: translateX(-50%);
     box-sizing: border-box;
-    padding: 1.5rem;
+    padding: 2rem;
     text-align: center;
+    margin-top: 2rem;
 }
 a {
     color: white;
