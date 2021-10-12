@@ -9,7 +9,6 @@ header {
 }
 
 header>div {
-<<<<<<< HEAD
     margin: auto;
     position: absolute;
     top: 4rem;
@@ -19,15 +18,3 @@ header>div {
     background-color: #c5192d;
     color:white;
 }
-=======
-    position:absolute;
-           margin: 0 auto;
-           top: 4rem;
-           text-align: center;
-            padding: 40px;
-            background-color: #c5192d;
-            color:white;
-            }
-
-            body {margin:auto;}
->>>>>>> b8c4e0898c873c4f6b6706ff996bd0adbc5740f4
