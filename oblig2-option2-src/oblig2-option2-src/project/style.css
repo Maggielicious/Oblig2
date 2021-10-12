@@ -9,6 +9,7 @@ body {
 }
 main {
     width: 70%;
+    top: 700px;
     box-sizing: border-box;
     margin: auto;
     padding: 1rem;

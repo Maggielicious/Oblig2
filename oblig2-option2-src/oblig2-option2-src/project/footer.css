@@ -1,7 +1,9 @@
-footer {background-color: red;
-    color:white;
+footer {
+    background-color: #c5192d;
+    color: white;
     position: absolute;
     width: 70%;
     left: 50%;
     transform: translateX(-50%);
-    box-sizing: border-box;}
+    box-sizing: border-box;
+}
