@@ -13,12 +13,12 @@ header {
 header>div {
     position: absolute;
     width: 70%;
-    top: 50%;
+    top: 0%;
     left: 50%;
-    transform: translate(-50%, 4rem);
+    transform: translate(-50%, 0%);
     box-sizing: border-box;
     text-align: center;
-    padding: 1.5rem;
+    padding: 2rem;
     background-color: #c5192d;
     color:white;
 }
