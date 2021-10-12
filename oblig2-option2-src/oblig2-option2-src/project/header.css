@@ -9,12 +9,12 @@ header {
 }
 
 header>div {
-    margin: auto;
     position: absolute;
     top: 4rem;
+    width: 70%;
+    box-sizing: border-box;
     text-align: center;
     padding: 1.5rem;
-    transform: translate(50%, 50%);
     background-color: #c5192d;
     color:white;
 }
