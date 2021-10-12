@@ -7,3 +7,4 @@ footer {
     transform: translateX(-50%);
     box-sizing: border-box;
 }
+footer>a {color: white;}
