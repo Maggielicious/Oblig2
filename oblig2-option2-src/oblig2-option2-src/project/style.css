@@ -10,13 +10,15 @@ body {
 main {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10rem;
+    margin-top: 6rem;
     width: 70%;
     top: 700px;
     box-sizing: border-box;
-    padding: 1rem;
     box-shadow: 0 0 1px 0 darkgray;
     background-color: whitesmoke;
+}
+article {
+    padding: 2rem;
 }
 @font-face {
     font-family: 'Montserrat';
@@ -35,23 +37,69 @@ p {
     line-height: 1.5;
     max-width: 70ch;
 }
+#intro-container {
+    background-color:#c5192d;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li:before {
+    width: 1rem;
+    display: inline;
+    margin: 1rem 1rem 0 1rem;
+}
+li:nth-child(1)::before {
+    content: "\1F64C";
+}
+li:nth-child(2)::before {
+    content: "\1F3EB";
+}
+li:nth-child(3)::before {
+    content: "\1F4DA";
+}
 
 @media screen and (max-width: 600px) {
     html {
         font-size: 14px;
+    }
+    header {
+        height: 55vh;
+    }
+    main {
+        width: 95vw;
+    }
+    header>div {
+        width: 95vw;
     }
 }
 @media screen and (min-width: 600px) and (max-width: 960px) {
     html {            
         font-size: 16px;
     }
+    header {
+        height: 65vh;
+    }
+    main {
+        width: 85vw;
+    }
+    header>div {
+        width: 85vw;
+    }
 }
 @media screen and (min-width: 961px) {
     html {            
         font-size: 24px;
     }
-    #intro-container {
-        background-color:#c5192d;
+    header {
+        height: 65vh;
+    }
+    main {
+        width: 70vw;
+    }
+    header>div {
+        width: 70vw;
     }
 }
 

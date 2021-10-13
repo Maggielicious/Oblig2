@@ -7,20 +7,18 @@ header {
     height: 65vh;
     position: relative;
     margin:auto;
-    
 }
 
 header>div {
     position: absolute;
-    width: 70%;
     bottom: -4rem;
     left: 50%;
     transform: translate(-50%);
     box-sizing: border-box;
     text-align: center;
-    padding: 2rem;
     background-color: #c5192d;
     color:white;
+    padding: 2rem;
 }
 header p{
     margin:auto;
