@@ -100,10 +100,10 @@ li:nth-child(3)::before {
         width: 70vw;
     }
     #intro-container>div {
-        display: inline-block;
     } 
     article>div {
         width: 45%;
+        display: inline-block;
     }
 }
 
