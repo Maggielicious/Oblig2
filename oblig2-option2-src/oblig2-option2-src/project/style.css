@@ -88,6 +88,16 @@ li:nth-child(3)::before {
     main, header>div, footer {
         width: 85vw;
     }
+    article>div {
+        width: 45%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    article>img {
+        width: 45%;
+        display: inline-block;
+        vertical-align: top;
+    }
 }
 @media screen and (min-width: 961px) {
     html {            
@@ -99,15 +109,15 @@ li:nth-child(3)::before {
     main, header>div, footer {
         width: 70vw;
     }
-    #intro-container>div {
-    } 
     article>div {
         width: 45%;
         display: inline-block;
+        vertical-align: top;
     }
     article>img {
         width: 45%;
         display: inline-block;
+        vertical-align: top;
     }
 }
 
