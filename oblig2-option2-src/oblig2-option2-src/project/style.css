@@ -124,12 +124,14 @@ li:nth-child(3)::before {
         display: inline-block;
         vertical-align: top;
         margin-right: -4px;
+        padding-inline-end: 5%;
     }
     article>img {
         width: 45%;
         display: inline-block;
         vertical-align: top;
         margin-right: -4px;
+        padding-inline-start: 5%;
     }
     #intro-container {
         height: 100%;
