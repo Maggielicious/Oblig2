@@ -137,5 +137,9 @@ li:nth-child(3)::before {
         height: 100%;
         background: linear-gradient(90deg, #c5192d 50%, rgba(0,0,0,0) 50%);
     }
+    img:nth-child(1){
+        padding-inline-start: 0;
+        padding-inline-end: 5%;
+    }
 }
 
