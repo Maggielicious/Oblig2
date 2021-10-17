@@ -68,14 +68,12 @@ li:nth-child(3)::before {
     header {
         height: 55vh;
     }
-    main {
+    main, header>div, footer {
         width: 95vw;
     }
-    header>div {
-        width: 95vw;
-    }
-    footer {
-        width: 95vw;
+    article>img {
+        max-width: 100%;
+        max-height: 100%;
     }
 }
 @media screen and (min-width: 600px) and (max-width: 960px) {
@@ -89,14 +87,16 @@ li:nth-child(3)::before {
         width: 85vw;
     }
     article>div {
-        width: 45%;
+        width:45%;
         display: inline-block;
         vertical-align: top;
+        margin-right: -4px;
     }
     article>img {
         width: 45%;
         display: inline-block;
         vertical-align: top;
+        margin-right: -4px;
     }
 }
 @media screen and (min-width: 961px) {
