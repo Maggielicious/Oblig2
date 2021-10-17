@@ -100,7 +100,7 @@ li:nth-child(3)::before {
         width: 70vw;
     }
     #intro-container>div {
-        float: left;
+        display: inline-block;
     } 
     article>div {
         width: 45%;
