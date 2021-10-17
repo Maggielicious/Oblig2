@@ -19,6 +19,7 @@ main {
 }
 article {
     padding: 2rem;
+    border-bottom: 0.1px solid darkgray;
 }
 @font-face {
     font-family: 'Montserrat';
@@ -84,13 +85,7 @@ li:nth-child(3)::before {
     header {
         height: 65vh;
     }
-    main {
-        width: 85vw;
-    }
-    header>div {
-        width: 85vw;
-    }
-    footer {
+    main, header>div, footer {
         width: 85vw;
     }
 }
@@ -101,14 +96,14 @@ li:nth-child(3)::before {
     header {
         height: 65vh;
     }
-    main {
+    main, header>div, footer {
         width: 70vw;
     }
-    header>div {
-        width: 70vw;
-    }
-    footer {
-        width: 70vw;
+    #intro-container>div {
+        float: left;
+    } 
+    article>div {
+        width: 45%;
     }
 }
 
